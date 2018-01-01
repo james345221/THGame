@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thgame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".weight.LoginActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GoodActivity"
+            android:label="@string/title_activity_good"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BigbossWebViewActivity"
+            android:label="@string/title_activity_bigboss_web_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ConfigBuyActivity"
+            android:label="@string/title_activity_config_buy"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ZhuceActivity"
+            android:label="@string/title_activity_zhuce"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

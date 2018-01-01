@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">THGame</string>
+    <string name="tabHome">主页</string>
+    <string name="tabSearch">发现</string>
+    <string name="tabShop">订单</string>
+    <string name="tabMyself">我</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_good">GoodActivity</string>
+    <string name="title_activity_bigboss_web_view">BigbossWebViewActivity</string>
+    <string name="title_activity_config_buy">ConfigBuyActivity</string>
+    <string name="title_activity_zhuce">ZhuceActivity</string>
+</resources>

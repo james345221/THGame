@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thgame.ZhuceActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_zhuce">
+
+    <EditText
+        android:id="@+id/zhuce_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入账号"/>
+
+    <EditText
+        android:id="@+id/zhuce_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:hint="请输入昵称"/>
+
+    <EditText
+        android:id="@+id/zhuce_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入密码"/>
+
+    <Button
+        android:id="@+id/zhuce_btn"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFCC00"
+        android:text="注册" />
+
+</LinearLayout>

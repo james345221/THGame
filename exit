@@ -1,0 +1,101 @@
+[33mcommit 018f8b52043b78a8d5ca14afd2299b1b17e50785[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: James <408758348@qq.com>
+Date:   Mon Jan 1 17:36:05 2018 +0800
+
+    完成注册功能，app初步完成，本想做评论功能但时间有限
+
+[33mcommit 39841476126030b5b3728be43af479b59322a25e[m
+Author: James <408758348@qq.com>
+Date:   Sun Dec 31 21:17:34 2017 +0800
+
+    完成购买QB功能，完成订单页面刷新功能
+
+[33mcommit e74f1db40276d9c8993d051d675bdff68363ff69[m
+Author: James <408758348@qq.com>
+Date:   Sun Dec 31 02:14:05 2017 +0800
+
+    完成与数据库的对接
+
+[33mcommit 9410e9c82b1af24d4d10693a4dff2bb77f00b127[m
+Author: James <408758348@qq.com>
+Date:   Sat Dec 30 17:27:43 2017 +0800
+
+    完成订单页面
+
+[33mcommit 8b5d23f15e9d1834b2b59a2cc808be5ac00fc1be[m
+Author: James <408758348@qq.com>
+Date:   Sat Dec 30 16:30:00 2017 +0800
+
+    订单页面初步完成
+
+[33mcommit 40ca2ac0b9b97b514d89230237fc59a202dc3519[m
+Author: James <408758348@qq.com>
+Date:   Fri Dec 29 16:47:02 2017 +0800
+
+    实现退出登录
+
+[33mcommit 1f2ee0fa26bee5462145e2afa9d05b2b2bc7f1e3[m
+Author: James <408758348@qq.com>
+Date:   Fri Dec 29 03:01:15 2017 +0800
+
+    完成商品详情页面，完成用户评论，注意有错先检查Gson格式不然会自杀
+
+[33mcommit 4297fa4acdbf1b92be8c33d3bf30b7b3c64c1781[m
+Author: James <408758348@qq.com>
+Date:   Wed Dec 27 16:44:37 2017 +0800
+
+    登录功能大改，开场动画完成，优化分类推荐页面
+
+[33mcommit 1ccdd4dc313b1a617516e5a0624b9e2350393d9d[m
+Author: James <408758348@qq.com>
+Date:   Wed Dec 27 00:49:24 2017 +0800
+
+    初步完成订单页面，准备大改登录功能
+
+[33mcommit 04bf777edc1978b406711f3531c13faea17ebf31[m
+Author: James <408758348@qq.com>
+Date:   Tue Dec 26 01:50:01 2017 +0800
+
+    完成客户端登录与服务器post交互，发现页面完成
+
+[33mcommit 6d0d0ed989ed52c2ec0421737d27104d4a9f5bd7[m
+Author: James <408758348@qq.com>
+Date:   Tue Nov 21 16:41:05 2017 +0800
+
+    Finish Login for version 1
+
+[33mcommit 06b898b3e3d1c3267860122c914a21fcb7c0cc6f[m
+Author: James <408758348@qq.com>
+Date:   Fri Oct 27 22:23:06 2017 +0800
+
+    完成json发送
+
+[33mcommit e773d691fc7212ec2029de70e43471c15b789151[m
+Author: James <408758348@qq.com>
+Date:   Mon Oct 16 11:50:26 2017 +0800
+
+    分类九宫格
+
+[33mcommit b40c9d93d02b7dd8f8a81943b9906ef5a5ec1f8d[m
+Author: James <408758348@qq.com>
+Date:   Mon Oct 16 00:45:54 2017 +0800
+
+    优化顶部，轮播，沉浸式toolbar
+
+[33mcommit 21ceb8cb3405b148eecd5b24939d5bf586dc31fc[m
+Author: James <408758348@qq.com>
+Date:   Sat Oct 14 20:05:59 2017 +0800
+
+    新轮播图
+
+[33mcommit 1ed9a0dcc48e74cd3b419dfb69317103b0ea5ba1[m
+Author: James <408758348@qq.com>
+Date:   Fri Oct 13 17:49:28 2017 +0800
+
+    头部轮播
+
+[33mcommit e057948a4e8ee0a218dd5dab3e2ae0105ac34b96[m
+Author: James <408758348@qq.com>
+Date:   Thu Oct 12 17:58:59 2017 +0800
+
+    底部菜单栏完成

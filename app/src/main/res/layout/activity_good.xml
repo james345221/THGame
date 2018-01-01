@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.thgame.GoodActivity">
+
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:fitsSystemWindows="true"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:layout_marginBottom="10dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/dot_0"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_focused"/>
+
+                <View
+                    android:id="@+id/dot_1"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_2"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_3"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_4"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/goodname"
+                    android:text="qbi"
+                    android:textSize="23dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"/>
+
+                    <ImageView
+                        android:id="@+id/iv_baby_collection"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/second_2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/goodname"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="￥"
+                        android:textColor="@color/red"
+                        android:textSize="20dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/goodprice"
+                        android:text="1699"
+                        android:textSize="30dp"
+                        android:textColor="@color/red"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="快递：0.00" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="月销2773713笔" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="广东深圳" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/gainsboro" >
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="----评论----" />
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/goodRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/buyButton"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
